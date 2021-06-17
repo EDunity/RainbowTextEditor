@@ -103,6 +103,10 @@
         }
 
         document.getElementById("OutPut").value = OutPut;
+
+        var CopyText = document.getElementById("OutPut");
+        CopyText.select();
+        document.execCommand("copy");
       }
     </script>
   </body>
